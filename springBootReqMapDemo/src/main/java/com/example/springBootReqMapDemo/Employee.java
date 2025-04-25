@@ -16,14 +16,12 @@ public class Employee {
     // Default constructor (required by JPA)
     public Employee() {}
 
-    // Constructor with fields
     public Employee(String name, String email, String department) {
         this.name = name;
         this.email = email;
         this.department = department;
     }
 
-    // Getters and Setters
 
     public Long getId() {
         return id;
