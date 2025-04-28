@@ -17,6 +17,11 @@ public class EmployeeController {
         return employeeRepository.findAll();
     }
 
+    @GetMapping("/{id}")
+    public Employee getEmployee(@PathVariable Long id) {
+        return employeeRepository.findById(id).orElseThrow();
+    }
+
     @PostMapping
     public Employee createEmployee(@RequestBody Employee employee) {
         return employeeRepository.save(employee);
