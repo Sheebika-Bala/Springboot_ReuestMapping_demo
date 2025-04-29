@@ -1,6 +1,6 @@
 # Springboot_ReuestMapping_demo
 
-This project is a simple Spring Boot application that demonstrates how to use basic request mapping in a RESTful web service. It includes integration with MySQL for persistence and was developed using **IntelliJ IDEA**.
+This project is a simple Spring Boot application that demonstrates how to use basic request mapping in a RESTful web service. It includes integration with MySQL and was developed using **IntelliJ IDEA**.
 
 ## Technologies Used
 
